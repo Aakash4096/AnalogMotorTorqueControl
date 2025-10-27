@@ -33,6 +33,8 @@ https://www.pcbway.com/blog/technology/A_Standalone_Full_Bridge_DC_Motor_Driver_
 
 Added PWM1 and PWM2 inputs from HALF-BRIDGE driver.
 
+Thus my project looks as this :-
+
 
 
 

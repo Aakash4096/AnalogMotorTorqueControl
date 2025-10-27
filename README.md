@@ -35,6 +35,7 @@ Added PWM1 and PWM2 inputs from HALF-BRIDGE driver.
 
 Thus my project looks as this :-
 
+![Power_stage](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Power_stage_schematics.png)
 
 
 

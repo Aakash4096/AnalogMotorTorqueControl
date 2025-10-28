@@ -56,7 +56,8 @@ Thus my initial phase of project for power supply h bridge schematics looks like
 By following this the above reference, i could finally draft my schematics as this which after testing if error occurs ,i will make minute changes and either edit this or will make a new subsection for it
 
 
-![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Power_stage_schematics.png)
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Final_Schematics_Full_h-bridge.png)
+
 
 
 

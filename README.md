@@ -21,11 +21,21 @@ Thus finally implemented it on my own.
 
 #### moving back to our own project -
 Searched and gone through specifications for my project 
-Components used for this project
+Components used for this project  
+
+
 -Q_PMOS as p-MOSFET
+
+
 -Q_NMOS_GDS as n-MOSFET
+
+
 -Resistors
+
+
 -SS34 as 40V 3A Schottky Diode, SMA
+
+
 -IR2104 as Half-Bridge Driver, 600V, 210/360mA, PDIP-8/SOIC-8
 
 Taking references from project developed in site:
@@ -34,6 +44,8 @@ https://www.pcbway.com/blog/technology/A_Standalone_Full_Bridge_DC_Motor_Driver_
 Added PWM1 and PWM2 inputs from HALF-BRIDGE driver.
 
 Thus my project looks as this :-
+
+![Power_stage](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Power_stage_schematics.png)
 
 
 

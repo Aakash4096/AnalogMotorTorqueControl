@@ -24,6 +24,11 @@ Searched and gone through specifications for my project
 Components used for this project  
 
 
+-Motor specification=Light
+12 V, 0.1 – 0.5 A
+≤ 2 A
+5–20 kHz
+
 -Q_PMOS as p-MOSFET
 
 
@@ -43,9 +48,15 @@ https://www.pcbway.com/blog/technology/A_Standalone_Full_Bridge_DC_Motor_Driver_
 
 Added PWM1 and PWM2 inputs from HALF-BRIDGE driver.
 
-Thus my project looks as this :-
+Thus my initial phase of project for power supply h bridge schematics looks like this :-
 
 ![Power_stage](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Power_stage_schematics.png)
+
+
+By following this the above reference, i could finally draft my schematics as this which after testing if error occurs ,i will make minute changes and either edit this or will make a new subsection for it
+
+
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Power_stage_schematics.png)
 
 
 

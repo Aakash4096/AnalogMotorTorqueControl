@@ -168,5 +168,6 @@ By following this the above reference, i could finally draft my schematics as th
 
 
 
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Minor_Adjustment.png)
 
 

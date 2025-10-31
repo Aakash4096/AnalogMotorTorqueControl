@@ -1386,296 +1386,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1911,6 +1621,156 @@
 				)
 			)
 			(symbol "SS34_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SS36"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS36"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "60V 3A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS36_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS36_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3314,6 +3174,12 @@
 		)
 	)
 	(junction
+		(at 172.72 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1bb994-bf9f-4c4d-be5a-9f12a414dc84")
+	)
+	(junction
 		(at 201.93 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3324,6 +3190,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1484343a-0bdd-4e95-856b-5ba3c0e9b897")
+	)
+	(junction
+		(at 158.75 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be7f52e-2eb5-4f91-8839-0dc17c9c44d3")
 	)
 	(junction
 		(at 91.44 83.82)
@@ -3374,6 +3246,12 @@
 		(uuid "35ed8528-2f5f-4faf-818e-2417054e2c09")
 	)
 	(junction
+		(at 171.45 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fbc8bf5-047c-4572-85e1-c0f91395c94e")
+	)
+	(junction
 		(at 195.58 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3390,6 +3268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f1a376-3f25-4ebc-b3c2-8d7581ae8733")
+	)
+	(junction
+		(at 158.75 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4af40002-b5e6-4684-90ab-90dbbc4e36d4")
 	)
 	(junction
 		(at 46.99 43.18)
@@ -3428,6 +3312,12 @@
 		(uuid "8cec2ec4-b8ac-47ce-914a-847677685683")
 	)
 	(junction
+		(at 156.21 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92a7edeb-36e4-4e58-a4f9-84e7886d019a")
+	)
+	(junction
 		(at 55.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3438,6 +3328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0e4885b-0099-4c7d-9508-52dee16f262f")
+	)
+	(junction
+		(at 156.21 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a976aca1-8deb-4106-b6a3-8ee6e545cbb1")
 	)
 	(junction
 		(at 104.14 83.82)
@@ -3488,6 +3384,12 @@
 		(uuid "bec6b7e7-92e3-434d-b47b-4ceb206965bd")
 	)
 	(junction
+		(at 171.45 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6e5d8db-659f-403c-975b-c9ee9404fb93")
+	)
+	(junction
 		(at 270.51 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3530,6 +3432,12 @@
 		(uuid "ed35e040-c96b-4e9f-9732-f3bc1ce4833e")
 	)
 	(junction
+		(at 171.45 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed52fd59-e35c-40f4-b50d-1175bfe5db71")
+	)
+	(junction
 		(at 204.47 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3537,13 +3445,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 165.1 72.39)
+			(xy 151.13 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00e6ded6-fb74-4e5d-b45f-23544a4ebb7a")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024db67f-d77a-4e52-976a-bfd8a1acfca6")
 	)
 	(wire
 		(pts
@@ -3627,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 52.07) (xy 176.53 52.07)
+			(xy 170.18 52.07) (xy 171.45 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3724,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "105200e2-4543-4a6e-8d28-34934b9aad18")
+	)
+	(wire
+		(pts
+			(xy 171.45 72.39) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fc95fa-10d1-42cd-bba4-9f4c0dd9a74c")
 	)
 	(wire
 		(pts
@@ -3877,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 64.77) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26383c2c-8c2c-44be-8e7c-d5bc7d989019")
+	)
+	(wire
+		(pts
 			(xy 45.72 149.86) (xy 45.72 134.62)
 		)
 		(stroke
@@ -4027,6 +3965,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2192e6-91f2-4d33-8f33-d9ce1c62e2ff")
+	)
+	(wire
+		(pts
 			(xy 121.92 52.07) (xy 127 52.07)
 		)
 		(stroke
@@ -4044,16 +3992,6 @@
 			(type default)
 		)
 		(uuid "3b205afd-2c46-4f43-94e8-ba3022129de5")
-	)
-	(wire
-		(pts
-			(xy 140.97 38.1) (xy 143.51 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b57fa3b-8c6e-46b8-b320-63c1be57e70b")
 	)
 	(wire
 		(pts
@@ -4084,6 +4022,16 @@
 			(type default)
 		)
 		(uuid "4125f40d-7a0a-4cb6-849f-bba7a031594b")
+	)
+	(wire
+		(pts
+			(xy 156.21 27.94) (xy 162.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "417bb73b-d6ec-4f21-a0f4-05f486c4d835")
 	)
 	(wire
 		(pts
@@ -4277,6 +4225,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 52.07) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635b4dd2-c8b1-4046-8d85-0466a5fd1af9")
+	)
+	(wire
+		(pts
 			(xy 278.13 46.99) (xy 278.13 41.91)
 		)
 		(stroke
@@ -4304,6 +4262,16 @@
 			(type default)
 		)
 		(uuid "65f37bc0-2054-441e-bff1-6ba7cfa615af")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668a742d-e728-4d1f-8776-65f71712e55d")
 	)
 	(wire
 		(pts
@@ -4427,6 +4395,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 43.18) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731de1da-aed1-4f19-9f75-d26551f2b76c")
+	)
+	(wire
+		(pts
 			(xy 236.22 45.72) (xy 242.57 45.72)
 		)
 		(stroke
@@ -4497,6 +4475,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 52.07) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778cda91-807b-45cc-a8d5-c73b4937b4c5")
+	)
+	(wire
+		(pts
 			(xy 189.23 118.11) (xy 195.58 118.11)
 		)
 		(stroke
@@ -4524,6 +4512,16 @@
 			(type default)
 		)
 		(uuid "79d3a630-5155-4d47-a27a-1e82064c6e14")
+	)
+	(wire
+		(pts
+			(xy 156.21 43.18) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a715177-ed25-4150-9db7-45de3facf6e6")
 	)
 	(wire
 		(pts
@@ -4757,16 +4755,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 43.18) (xy 151.13 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91827a9d-6609-4fbd-a63c-8eb098ddb7e6")
-	)
-	(wire
-		(pts
 			(xy 201.93 87.63) (xy 201.93 93.98)
 		)
 		(stroke
@@ -4797,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 27.94) (xy 176.53 27.94)
+			(xy 162.56 27.94) (xy 171.45 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4824,6 +4812,16 @@
 			(type default)
 		)
 		(uuid "9608d0fb-d710-4467-8951-ff8ea4fe7e36")
+	)
+	(wire
+		(pts
+			(xy 171.45 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9706c49c-0106-4c9b-a409-181af1ffd0cc")
 	)
 	(wire
 		(pts
@@ -4867,6 +4865,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 35.56) (xy 156.21 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfdfa46-3312-489d-97cd-c7915b83a6fc")
+	)
+	(wire
+		(pts
 			(xy 212.09 88.9) (xy 212.09 87.63)
 		)
 		(stroke
@@ -4884,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "9f8379e5-d682-4239-b3d5-7bca79990faf")
+	)
+	(wire
+		(pts
+			(xy 171.45 27.94) (xy 176.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1521301-ccfb-4b5f-a042-ee910d82e142")
 	)
 	(wire
 		(pts
@@ -4927,6 +4945,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c04638-4ddf-46e4-a969-94ddbf1b9fb3")
+	)
+	(wire
+		(pts
 			(xy 151.13 67.31) (xy 151.13 72.39)
 		)
 		(stroke
@@ -4957,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 52.07) (xy 171.45 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad63a609-c141-48a3-b1b6-b0f2081b9c5c")
+	)
+	(wire
+		(pts
 			(xy 104.14 83.82) (xy 104.14 95.25)
 		)
 		(stroke
@@ -4967,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 151.13 52.07)
+			(xy 160.02 52.07) (xy 158.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5047,16 +5085,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 27.94) (xy 151.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9a8a07-49f8-4550-bf32-075daad8a5e5")
-	)
-	(wire
-		(pts
 			(xy 176.53 43.18) (xy 176.53 52.07)
 		)
 		(stroke
@@ -5104,6 +5132,16 @@
 			(type default)
 		)
 		(uuid "c41a8a20-1a7f-4978-afa2-f75e0f2a137c")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 165.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c475beb8-0a20-4a21-8754-95e483c6cfc8")
 	)
 	(wire
 		(pts
@@ -5237,6 +5275,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 66.04) (xy 171.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ea7f3b-2f7b-4792-9971-5f111a29f7d4")
+	)
+	(wire
+		(pts
 			(xy 196.85 99.06) (xy 198.12 99.06)
 		)
 		(stroke
@@ -5347,6 +5395,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 52.07) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37500d5-bacf-4280-9464-df5da6a2af8e")
+	)
+	(wire
+		(pts
 			(xy 196.85 38.1) (xy 196.85 41.91)
 		)
 		(stroke
@@ -5404,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "eac97f17-2435-4849-b3d5-d5cf7a3bf424")
+	)
+	(wire
+		(pts
+			(xy 171.45 40.64) (xy 172.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb5860e-5e3e-4ecf-aac0-cfe110e9199d")
 	)
 	(wire
 		(pts
@@ -5497,7 +5565,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 27.94) (xy 162.56 27.94)
+			(xy 171.45 27.94) (xy 171.45 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ab02cf-5990-4c80-abe3-7e441cc50170")
+	)
+	(wire
+		(pts
+			(xy 151.13 27.94) (xy 156.21 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +5645,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 176.53 72.39)
+			(xy 165.1 72.39) (xy 171.45 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6257,6 +6335,76 @@
 			(project "joint_hbridge"
 				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS36")
+		(at 171.45 62.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14653c1f-0337-4444-a6c5-1be9b21979ab")
+		(property "Reference" "D8"
+			(at 173.99 60.6424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS36"
+			(at 173.99 63.1824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 167.005 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 171.45 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+		)
+		(pin "1"
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+		)
+		(instances
+			(project ""
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -7035,6 +7183,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 148.59 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37447afb-f9ad-4422-a0ce-cb55d5590a46")
+		(property "Reference" "Q1"
+			(at 151.892 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 152.146 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e18beb8-781d-4922-9ef2-d76caff98e6a")
+		)
+		(pin "2"
+			(uuid "38508a59-a787-4358-a13b-b0d0bba930e9")
+		)
+		(pin "3"
+			(uuid "c4228481-86e3-4214-a9af-3e793b00c8e0")
+		)
+		(instances
+			(project "joint_hbridge"
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS36")
+		(at 171.45 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a957494-c1d9-4d30-b4ed-258f597bb4eb")
+		(property "Reference" "D7"
+			(at 173.99 35.2424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS36"
+			(at 173.99 37.7824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 167.005 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+		)
+		(pin "1"
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+		)
+		(instances
+			(project ""
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 142.24 0)
 		(unit 1)
@@ -7165,6 +7456,78 @@
 			(project "joint_hbridge"
 				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 179.07 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46bcae7b-4a95-4e0b-a56f-8096309bdd13")
+		(property "Reference" "Q2"
+			(at 182.118 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS_GDS"
+			(at 190.754 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfbaf062-9cd2-4ed1-bb94-a6d56afce63f")
+		)
+		(pin "2"
+			(uuid "f001fba1-96e2-4fe6-90fe-f2436fe9cf45")
+		)
+		(pin "3"
+			(uuid "00f975ee-40e9-4ace-815e-58235224800d")
+		)
+		(instances
+			(project "joint_hbridge"
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9780,6 +10143,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS36")
+		(at 156.21 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7d137a-49ff-4153-bce1-96fba9c4de18")
+		(property "Reference" "D3"
+			(at 158.75 37.7824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS36"
+			(at 158.75 40.3224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 151.765 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 156.21 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+		)
+		(pin "1"
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+		)
+		(instances
+			(project ""
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 77.47 0)
 		(unit 1)
@@ -10050,6 +10483,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS36")
+		(at 158.75 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b0ce04-e475-41b8-a352-7a4061502d0b")
+		(property "Reference" "D9"
+			(at 161.29 59.3724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS36"
+			(at 161.29 61.9124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 154.305 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60V 3A Schottky Diode, SMA"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+		)
+		(pin "1"
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+		)
+		(instances
+			(project ""
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 91.44 102.87 90)
 		(unit 1)
@@ -10211,79 +10714,6 @@
 			(project "joint_hbridge"
 				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 148.59 38.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca0c8457-4d2a-482d-a4bc-d4e77ac90e4a")
-		(property "Reference" "Q5"
-			(at 147.828 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS"
-			(at 142.748 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "53e88094-f4ff-4be7-8e6e-1c5b3c5dabf0")
-		)
-		(pin "D"
-			(uuid "3a6f45de-a0b1-49c8-b376-91595aea338f")
-		)
-		(pin "G"
-			(uuid "b622bbb3-69d9-4d67-946c-a42019bd0023")
-		)
-		(instances
-			(project "joint_hbridge"
-				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10628,78 +11058,6 @@
 			(project ""
 				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 179.07 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d29072b1-bd59-434d-8034-ad320d4887ae")
-		(property "Reference" "Q7"
-			(at 183.388 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_PMOS"
-			(at 185.674 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "fd766316-2464-499d-91a7-05df39791308")
-		)
-		(pin "D"
-			(uuid "a001696f-d1f0-4ce0-baa9-93f121402cb9")
-		)
-		(pin "G"
-			(uuid "3ae48035-2e58-4bc9-8b27-5050e0221fb2")
-		)
-		(instances
-			(project "joint_hbridge"
-				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
-					(reference "Q7")
 					(unit 1)
 				)
 			)

@@ -5,128 +5,6 @@
 	(uuid "6b1e787a-9a3a-4b4c-81e6-12224e330815")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -4009,16 +3887,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 76.2) (xy 257.81 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2703c0b6-96d3-4829-ad7e-0470c348509a")
-	)
-	(wire
-		(pts
 			(xy 185.42 132.08) (xy 185.42 135.89)
 		)
 		(stroke
@@ -4059,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 72.39) (xy 250.19 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e35d0b2-a9c2-4b83-8116-b91f537d9f2a")
+	)
+	(wire
+		(pts
 			(xy 34.29 86.36) (xy 40.64 86.36)
 		)
 		(stroke
@@ -4096,6 +3974,16 @@
 			(type default)
 		)
 		(uuid "34e5c123-7e7d-4104-9a18-87324800bbea")
+	)
+	(wire
+		(pts
+			(xy 246.38 74.93) (xy 250.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35053204-2ce9-460b-8479-f8a65ee80eda")
 	)
 	(wire
 		(pts
@@ -5046,6 +4934,16 @@
 			(type default)
 		)
 		(uuid "a4aa11b9-69ce-4fe6-8cd1-0c0316161efc")
+	)
+	(wire
+		(pts
+			(xy 250.19 74.93) (xy 250.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a951cdda-5df6-48f8-9998-d8e6cfe2ec68")
 	)
 	(wire
 		(pts
@@ -6099,7 +5997,7 @@
 	)
 	(global_label "TorqueSensor"
 		(shape input)
-		(at 257.81 76.2 0)
+		(at 250.19 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6109,7 +6007,7 @@
 		)
 		(uuid "dbdadc69-ec06-4031-9cc1-d0df8500de1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.495 76.2 0)
+			(at 265.875 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,6 +9712,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 241.3 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af40e150-abf7-4e2a-b8af-c28c15fe4689")
+		(property "Reference" "TorqueSensor"
+			(at 241.935 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "V_shunt"
+			(at 241.935 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ce098dc-1a92-4da5-85c0-944566464436")
+		)
+		(pin "2"
+			(uuid "b939ce37-4d6b-4125-84c3-4c3171121bea")
+		)
+		(instances
+			(project "joint_hbridge"
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "TorqueSensor")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 165.1 77.47 0)
 		(unit 1)
@@ -10740,71 +10706,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 245.11 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9638d13-8c1d-4ec8-ae28-5869168dfe76")
-		(property "Reference" "J8"
-			(at 245.745 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 245.745 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 245.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae736125-da8f-47a3-8cd2-959bd872148f")
-		)
-		(instances
-			(project ""
-				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 205.74 130.81 0)
 		(unit 1)
@@ -10940,6 +10841,71 @@
 			(project ""
 				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddf0db37-f149-4007-a69b-5b2ae4e0ee84")
+		(property "Reference" "#PWR033"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.746 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dcb86c9-7ded-4b69-8fc8-c6df110bd2dd")
+		)
+		(instances
+			(project "joint_hbridge"
+				(path "/6b1e787a-9a3a-4b4c-81e6-12224e330815"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)

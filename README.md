@@ -185,3 +185,13 @@ I have made some scahnges by introducing R_shunt for torque measurement in the m
 Wanted to add amplifier to amplify current but will complicate the circuit more , first check it and if defection is not that much then will use amplifier as well 
 
 
+### Some changes 
+
+Noiticed that ,for quick switching of mosfet n type is more suitable than p type , hence i replaced earlier used p mosfet with n mosfet in high side as well and as i was giving the power to  gate using mosfet gate driver so i don't need any extra adjustment to the circuit.
+
+
+## stage 2
+Installed LTspice for simulation as i already know a few things of LTspice .
+
+
+

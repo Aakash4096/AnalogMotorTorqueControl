@@ -168,8 +168,7 @@ By following this the above reference, i could finally draft my schematics as th
 
 
 
-![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Minor_Adjustment.png)
-
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/addedTorqueSensor.png)
 
 
 
@@ -178,7 +177,7 @@ I have made some scahnges by introducing R_shunt for torque measurement in the m
 
 
 
-![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/addedTorqueSensor.png)
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/Minor_Adjustment.png)
 
 
 
@@ -192,6 +191,7 @@ Noiticed that ,for quick switching of mosfet n type is more suitable than p type
 
 ## stage 2
 Installed LTspice for simulation as i already know a few things of LTspice .
+
 
 
 

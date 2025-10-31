@@ -178,5 +178,10 @@ I have made some scahnges by introducing R_shunt for torque measurement in the m
 
 
 
+![full_h_bridge_schematics](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/addedTorqueSensor.png)
+
+
+
 Wanted to add amplifier to amplify current but will complicate the circuit more , first check it and if defection is not that much then will use amplifier as well 
+
 

@@ -7185,7 +7185,6 @@
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
 		(at 148.59 38.1 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7193,7 +7192,7 @@
 		(dnp no)
 		(uuid "37447afb-f9ad-4422-a0ce-cb55d5590a46")
 		(property "Reference" "Q1"
-			(at 151.892 41.402 0)
+			(at 151.892 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7201,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 152.146 34.29 0)
+			(at 152.146 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 40.64 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,10 +7310,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fd")
 		)
 		(pin "1"
-			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d8")
 		)
 		(instances
 			(project ""
@@ -7463,7 +7462,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 179.07 38.1 180)
+		(at 179.07 38.1 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7471,7 +7471,7 @@
 		(dnp no)
 		(uuid "46bcae7b-4a95-4e0b-a56f-8096309bdd13")
 		(property "Reference" "Q2"
-			(at 182.118 41.148 0)
+			(at 182.118 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7480,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 190.754 34.036 0)
+			(at 190.754 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 40.64 0)
+			(at 173.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10198,10 +10198,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fe")
 		)
 		(pin "1"
-			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d9")
 		)
 		(instances
 			(project ""
@@ -10538,10 +10538,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b605c40f-4134-4106-924c-3cd05b2e32fc")
+			(uuid "b605c40f-4134-4106-924c-3cd05b2e32ff")
 		)
 		(pin "1"
-			(uuid "9fa0d42a-5127-4635-a396-c636b353c1d7")
+			(uuid "9fa0d42a-5127-4635-a396-c636b353c1da")
 		)
 		(instances
 			(project ""

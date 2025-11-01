@@ -223,12 +223,13 @@ current flows through the motor , was not that much satisfied as it was not the 
 
 
 
-![LTspice_miniature_project](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/ltspice_v_motors.png)
+![LTspice_miniature_project](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/ltspice_v_motor.png)
 
 
 ![LTspice_miniature_circuit_result](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/ltspice_v_result_nearly_0.png)
 
 
 Next, I am adding gate drivers to my project as to get actual result of my circuit and also will changes some quantites / values as i will get stronh hold on this thing.
+
 
 

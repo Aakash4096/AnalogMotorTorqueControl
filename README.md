@@ -199,20 +199,38 @@ Installed LTspice for simulation as i already know a few things of LTspice .
 1	PB5 (PCINT5 / RESET / ADC0 / dW)	This pin is the Reset input. It also doubles as an input for the ADC channel 0, and the debugWIRE (dW) interface if debugWIRE is enabled. Since RESET is shared, careful if you want to use it as I/O. 
 components101.com
 +1
+
+
+
 2	PB3 (PCINT3 / CLKI / ADC3)	General-purpose I/O pin (Port B bit 3) with additional functions: external clock input (CLKI), ADC channel 3, and pin‐change interrupt. 
 ww1.microchip.com
 +1
+
+
 3	PB4 (PCINT4 / ADC2)	I/O pin PB4, also ADC channel 2, and pin-change interrupt source 4. 
 AllDataSheet
+
+
 4	GND	Ground reference.
+
+
 5	PB0 (MOSI / AIN0 / OC0A / PCINT0)	I/O pin PB0. MOSI (for SPI programming), analog comparator positive input (AIN0), Output Compare Match A (OC0A) for Timer/Counter0, pin‐change interrupt 0. 
 Utmel
 +1
+
+
+
 6	PB1 (MISO / AIN1 / OC0B / INT0 / PCINT1)	I/O pin PB1. MISO (for SPI), comparator negative input (AIN1), Output Compare Match B (OC0B), external interrupt INT0, pin change interrupt 1. 
 mouser.com
 +1
+
+
+
 7	PB2 (SCK / ADC1 / T0 / PCINT2)	I/O pin PB2. SPI SCK (for programming), ADC channel 1, Timer/Counter0 external clock input (T0), pin change interrupt 2. 
 himalayansolution.com
+
+
+
 8	VCC	Supply voltage pin. Ensure within specified limits depending on variant.
 
 
@@ -232,4 +250,8 @@ current flows through the motor , was not that much satisfied as it was not the 
 Next, I am adding gate drivers to my project as to get actual result of my circuit and also will changes some quantites / values as i will get stronh hold on this thing.
 
 
+![LTspice_miniature_circuit_result](https://github.com/Aakash4096/AnalogMotorTorqueControl/raw/main/assets/GateDriverCircuitAndOutput.png)
 
+
+
+These are the ouputs which i got , there is some ringing effect as well as my mosfet is not turning on and off as i wanted it to simulate .

@@ -125,6 +125,7 @@ Protection components like flyback diodes, and decoupling capacitors ensure the 
 
 
 
+
 Searched and gone through specifications for my project 
 Components used for this project  
 
@@ -234,6 +235,9 @@ himalayansolution.com
 8	VCC	Supply voltage pin. Ensure within specified limits depending on variant.
 
 
+-------------------------------------------------------------------------------------------------------------------------
+
+
 
 Implemented some of the basic and miniature version of my project to deepen my understanding of the h-bridge practically by knowning the actual amount of 
 current flows through the motor , was not that much satisfied as it was not the actual project but miniature . Which looks something like:-
@@ -255,3 +259,4 @@ Next, I am adding gate drivers to my project as to get actual result of my circu
 
 
 These are the ouputs which i got , there is some ringing effect as well as my mosfet is not turning on and off as i wanted it to simulate .
+
